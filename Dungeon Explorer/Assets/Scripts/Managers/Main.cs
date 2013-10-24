@@ -28,5 +28,6 @@ public class Main : MonoBehaviour {
         CameraSystem.Update();
 		AnimSystem.Update();
 		RenderSystem.Update();
+		
 	}
 }

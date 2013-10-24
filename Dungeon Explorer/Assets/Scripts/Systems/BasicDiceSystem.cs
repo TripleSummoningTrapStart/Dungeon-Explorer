@@ -16,7 +16,7 @@ public class BasicDiceSystem : MonoBehaviour {
 	  /// <param name='dice'>
 	  /// string containing the number of rolls and the type of die
 	  /// </param>
-      public int Roll(string dice)
+      public static int Roll(string dice)
       {
 		// splits the string into 2 parts
         string[] rollType = dice.Split('d');
